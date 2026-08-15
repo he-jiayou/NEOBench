@@ -33,11 +33,11 @@ All labeled objects use class `0` (`streak`). An image without a matching label 
 
 ## Dataset Folders
 
-- `datasets/roboflow YOLO`
-- `datasets/HubbleAsteroidHunter YOLO`
-- `datasets/StreakMind YOLO`
-- `datasets/StreaksYoloDataset YOLO`
-- `datasets/UAEMMN YOLO`
+- `datasets/roboflow_YOLO`
+- `datasets/HubbleAsteroidHunter_YOLO`
+- `datasets/StreakMind_YOLO`
+- `datasets/StreaksYoloDataset_YOLO`
+- `datasets/UAEMMN_YOLO`
 
 The published StreakMind split does not include a dedicated validation set. NEO-Bench therefore uses a fixed 278-image validation partition derived from the original training data, leaving 1,484 training images and preserving the original 94-image test set. Reuse this partition in every experiment.
 
@@ -79,7 +79,7 @@ git lfs pull
 To train an Ultralytics model, provide the configuration file for the dataset you want to use. For example:
 
 ```bash
-yolo detect train model=yolo26l.pt data="datasets/StreakMind YOLO/data.yaml" epochs=20 seed=42
+yolo detect train model=yolo26l.pt data="datasets/StreakMind_YOLO/data.yaml" epochs=20 seed=42
 ```
 
 ## Data Use
