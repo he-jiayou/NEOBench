@@ -49,7 +49,7 @@ The repository includes a 10% sample selected from the original 14,800-image UAE
 - 139 validation images
 - 140 test images
 
-The original UAEMMN images did not include bounding boxes. Claude Opus 4.6 identified meteor streaks and generated localized axis-aligned bounding boxes, which the authors manually verified. These labels are a contribution of NEO-Bench rather than labels supplied by the original UAEMMN archive. Their coordinates are normalized and stored in the same YOLO format as the other datasets.
+The original UAEMMN images did not include bounding boxes. Claude Opus 4.6 identified streaks and generated localized axis-aligned bounding boxes, which the authors manually verified. These labels are a contribution of NEO-Bench rather than labels supplied by the original UAEMMN archive. Their coordinates are normalized and stored in the same YOLO format as the other datasets. Because there were 98 images removed, there are some gaps in the names for photos used in UAEMMN.
 
 ## Labels and Conversions
 
